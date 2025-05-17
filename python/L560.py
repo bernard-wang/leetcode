@@ -13,6 +13,8 @@ I can think of keep a prefix sum array, and use a brute-force solution
 But the idea is to keep `count` increment every time when the partial sum increases `k`
 """
 
+from typing import List
+
 class Solution:
     def subarraySum(self, nums: List[int], k: int) -> int:
         count = 0
